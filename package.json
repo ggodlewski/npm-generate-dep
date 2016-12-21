@@ -10,5 +10,5 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "npm-dep && npm-dep -l && npm-dep -a && npm-dep -c && npm-dep -p"
   },
-  "version": "2.0.5"
+  "version": "0.0.1"
 }
