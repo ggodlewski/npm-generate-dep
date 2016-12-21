@@ -31,5 +31,4 @@ Run
 npm-generate-dep config/package.dev.json config/package.express.json
 ```
 
-It will fetch all dependencies from those files and add them to package.json dependecies section by running "npm install"
-
+It will fetch all dependencies from those files and add them to package.json dependencies section by running "npm install"
