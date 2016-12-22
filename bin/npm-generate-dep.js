@@ -4,7 +4,7 @@
 var args = process.argv.slice(2);
 
 var npm = require('npm');
-npm.load(function(err) {
+npm.load({ 'save-dev': true }, function(err) {
     if (err) {
         console.error(err);
         return;
