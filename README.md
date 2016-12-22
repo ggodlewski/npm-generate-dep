@@ -24,7 +24,8 @@ package.dev.json
         "webpack-dev-server": "2.1.0-beta.2",
         "webpack-merge": "^1.1.2"
     }
-}```
+}
+```
 
 package.express.json
 
@@ -46,11 +47,12 @@ Drop your package files into project (eg: config/package.dev.json, config/packag
 Run
 ```
 npm-generate-dep config/package.dev.json config/package.express.json
+```
 
 or just:
 
+```
 npm-generate-dep config/package.*
 ```
 
 It will merge all dependencies from those files and add them to package.json dependencies section by running "npm install"
-
